@@ -1,11 +1,15 @@
 // Think of View as a div and Text as a p or heading element
-import {View, Text} from 'react-native';
+import {SafeAreaView, Text} from 'react-native';
+import { TextInput } from 'react-native-gesture-handler';
+import React, {useState} from 'react';
 
 const Home = () => {
     return(
-        <View>
+        <SafeAreaView>
             <Text>Home</Text>
-        </View>
+            <TextInput defaultValue='Username'></TextInput>
+            <TextInput defaultValue='Password'></TextInput>
+        </SafeAreaView>
     )
 }
 

@@ -25,3 +25,6 @@ https://rapidapi.com/kylerenninger/api/charity-check-pdf/
 
 Resources: 
 https://www.irs.gov/charities-non-profits/charitable-organizations/charitable-contribution-deductions
+
+* Folder structure based on:
+https://www.youtube.com/watch?v=5RUl8exLI-c&t=216s
